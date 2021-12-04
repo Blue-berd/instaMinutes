@@ -12,12 +12,12 @@
 </style>
 </head>
 <body>
-    <form action="/action_page.php">
+    <form action="localhost:3000/event">
         <label for="text">Event name:</label><br>
-        <input type="text" id="text" name="text" value=""><br>
+        <input type="input" id="text" name="text" value=""><br>
         <label for="text">trigger Date:</label><br>
-        <input type="text" id="date" name="date" value=""><br><br>
-        <input type="submit" value="Submit" onclick="">
+        <input type="input" id="date" name="date" value=""><br><br>
+        <input type="submit" value="Submit">
     </form>
 </body>
 <script>
@@ -27,16 +27,20 @@
     // time = time.toISOString()
     // events.push({ text: text, dateTime: time });
 
-    
-    // function alertUser() {
-    // alert(text)
+    // for(let i = 0; i<events.length;i++){
+    //         let text = events[i].text 
+    //         currentTime = new Date().getTime();
+    //         timedifference =  Date.parse(events[i].dateTime)-currentTime
+    //         if(timedifference>0){
+    //         console.log(timedifference)
+    //         function alertUser() {
+    //             console.log(text)
+    //             res.send(text);
+    //             events.splice(i,1)
+    //         }
+    //         setTimeout(alertUser, timedifference);
+    //         }
     // }
-    // events.forEach(elements =>{ 
-    //     let date = new Date(time).getTime();
-    //     currentTime = new Date().getTime();
-    //     timedifference = currentTime - date;
-    //     setTimeout(alertUser, timedifference);
-    // })
     
  </script>
 </html>

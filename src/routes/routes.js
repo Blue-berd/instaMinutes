@@ -6,6 +6,6 @@ const {storeEvents, alertUser} = require("../controller")
 
 router.post("/event", storeEvents);
 
-router.get("/schedule",alertUser)
+router.get("/event",alertUser)
 
 module.exports = router;
