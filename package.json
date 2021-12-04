@@ -1,0 +1,17 @@
+{
+  "name": "instaminutes",
+  "version": "1.0.0",
+  "description": "Instaminutes assignemnt",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "author": "Jay sardar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.14",
+    "node-schedule": "^2.1.0",
+    "nodemon": "^2.0.15"
+  }
+}
